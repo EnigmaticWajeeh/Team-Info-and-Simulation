@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="470.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KOTeamSelectedController">
+   <children>
+      <ListView fx:id="playerInKOTeam" layoutX="14.0" layoutY="92.0" prefHeight="287.0" prefWidth="200.0" />
+      <ListView fx:id="playerSelectedInKOTeam" layoutX="287.0" layoutY="92.0" prefHeight="287.0" prefWidth="200.0" />
+      <Button fx:id="playerSelect" layoutX="238.0" layoutY="211.0" mnemonicParsing="false" onAction="#PlayerSelect" text="&gt;" />
+      <Button fx:id="playerDeselect" layoutX="238.0" layoutY="254.0" mnemonicParsing="false" onAction="#PlayerDeselect" text="&lt;" />
+      <Label layoutX="344.0" layoutY="59.0" text="Players Selected" textAlignment="CENTER" />
+      <Label layoutX="73.0" layoutY="59.0" text="Players In Team" />
+      <Button fx:id="simulateKOMatch" layoutX="201.0" layoutY="401.0" mnemonicParsing="false" onAction="#SimulateKOMatch" text="Simulate Match" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
